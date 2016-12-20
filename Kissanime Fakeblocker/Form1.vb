@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        ProgressBar1.Value = 100
         Dim Hosts As String = Environment.SystemDirectory & "\drivers\etc\hosts"
         Dim sr As New IO.StreamReader(Hosts)
         Dim input As String = sr.ReadToEnd()
@@ -30,5 +31,6 @@
         sw.Write(output8)
         sw.Write(output9)
         sw.Close()
+        Button3.Enabled = False
     End Sub
 End Class
