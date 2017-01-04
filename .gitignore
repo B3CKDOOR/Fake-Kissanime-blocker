@@ -19,6 +19,12 @@
 [Bb]uild/
 bld/
 [Oo]bj/
+Kissanime Fakeblocker.exe.config
+Kissanime Fakeblocker.pdb
+Kissanime Fakeblocker.vshost.exe
+Kissanime Fakeblocker.vshost.exe.config
+Kissanime Fakeblocker.vshost.exe.manifest
+Kissanime Fakeblocker.xml
 
 # Visual Studio 2015 cache/options directory
 .vs/
